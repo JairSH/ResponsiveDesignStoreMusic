@@ -27,3 +27,36 @@ header .header--principal_name h1 {
     padding: 12px 10px 0px 10px;
     line-height: 1.2rem;
 }
+
+.header--second_menu {
+    width: 320px;
+    height: 55px;
+    display: flex;
+    padding: 5px;
+}
+.header--menu-left {
+    width: 50%;
+    height: 50px;
+    padding: 3px;
+}
+
+.header--menu-left a {
+    font-size: 0.7rem;
+}
+
+.header--menu-right {
+    width: 50%;
+    height: 50px;
+    padding: 2px;
+}
+.header--menu-right ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.header--menu-right ul li {
+    width: 24px;
+    height: 24px;
+}
